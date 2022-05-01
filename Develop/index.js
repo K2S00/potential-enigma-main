@@ -3,7 +3,7 @@ const fs = require("fs");
 const path = require("path");
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
-const {generate} = require("rxjs");
+
 
 // TODO: Create an array of questions for user input
 const questions = [
